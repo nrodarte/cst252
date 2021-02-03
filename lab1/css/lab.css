@@ -1,0 +1,63 @@
+
+html{
+
+background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-dark.png)
+
+}
+div#header{
+
+text-align: center;
+padding: 20px;
+
+}
+
+div#paragraphone{
+border: 5pt solid white;
+padding: 150px;
+background-image: linear-gradient(black,green,black);
+}
+
+div#paragraphtwo{
+  border: 5pt solid white;
+  padding: 150px;
+  background-image: linear-gradient(black,green,black);
+}
+
+
+h1{
+font-size: 60pt;
+font-family: Proximanova, sans-serif;
+text-decoration: underline;
+letter-spacing: .3em;
+color: white;
+
+}
+
+
+p1{
+font-family: sans-serif;
+font-size: 20pt;
+color: white;
+}
+
+p2{
+font-family: sans-serif;
+font-size: 20pt;
+color: white;
+}
+
+img.nick{
+ width: 600px;
+ height: 800px;
+ margin-left:300px;
+ border: 5pt solid white;
+
+
+}
+
+img.ish{
+ max-width: 600px;
+ max-height: 950px;
+ border: 5pt solid white;
+
+}
