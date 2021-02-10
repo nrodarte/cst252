@@ -1,0 +1,64 @@
+div#head{
+  border: 12pt solid red;
+  text-align: center;
+background-color: black;
+padding-bottom: 20px;
+}
+
+h1,h2{
+  font-family: proxima nova ultrabold, sans-serif;
+  font-size: 44pt;
+  letter-spacing: .09em;
+  color: red;
+  text-shadow:  3px 3px white;
+  text-decoration: underline;
+
+}
+
+div#paragraph{
+  border: 10pt solid black;
+  text-align: center;
+  background-color: gray;
+  margin-top: 100px;
+  max-width: 50%;
+  padding: 10px;
+
+}
+p{
+  font-family: proxima nova ultrabold, sans-serif;
+  color: black;
+  font-size: 24pt;
+  text-shadow: .5pt .5pt white;
+}
+
+div#list{
+  border: 10pt solid black;
+text-align: center;
+  background-color: gray;
+  margin-top: 100px;
+  max-width: 50%;
+
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  font-size: 25pt;
+  font-family: proxima nova ultrabold, sans-serif;
+  padding: 10px;
+}
+
+Div#picture{
+  border: 15pt solid black;
+  float:right;
+  max-width: 31.5%;
+  margin-top: -670px;
+  margin-right: 100px;
+  padding: 20px;
+  background-color: red;
+}
+html{
+  background-image:url(https://img.freepik.com/free-vector/white-brick-wall-texture-background-wallpaper-graphic-web-game-realistic-seamless-pattern_278395-88.jpg?size=626&ext=jpg);
+}
