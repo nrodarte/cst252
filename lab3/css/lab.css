@@ -1,0 +1,40 @@
+div#header{
+  border: 10pt solid black;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: lightgrey;
+
+}
+h4{
+  font-family: proxima nova ultrabold, sans-serif;
+  font-size: 44pt;
+  text-decoration: underline;
+  letter-spacing: .03em;
+}
+
+div#chall,div#prob,div#result {
+  border: 7pt solid black;
+  margin-top: 50px;
+  max-width: 60%;
+  background-color: lightgrey;
+  padding: 10px;
+}
+h1,h2,h3 {
+  font-family: proxima nova ultrabold, sans-serif;
+  font-size: 24pt;
+  text-decoration: underline;
+}
+p1,p2,p3{
+  font-size: 16pt;
+  font-family: proxia nova,sans-serif;
+
+}
+Div#links{
+  border: 5pt solid black;
+  float: right;
+  width: 20%;
+  margin-right: 100px;
+  margin-top: -600px;
+
+}
