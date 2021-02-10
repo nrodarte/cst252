@@ -37,14 +37,14 @@ p1,p2,p3{
 
 }
 Div#links{
-  border: 5pt solid black;
-  float: right;
-  width: 20%;
+  border: 15pt solid black;
+
+
   margin-right: 100px;
-  margin-top: -600px;
-  height: 500px;
+  margin-top: 100px;
+
   padding-left: 50px;
-  background-color: white;
+  background-color: lightgrey;
 
 
 }
@@ -55,5 +55,15 @@ li{
   font-size: 26pt;
   font-family: proxima nova ultrabold, sans-serif;
   padding: 25px;
+
+}
+
+img{
+  height: 500px;
+  position: absolute;
+  top: 250px;
+  left: 1250px;
+  border: 5pt solid black;
+
 
 }
