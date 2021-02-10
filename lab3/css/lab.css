@@ -1,9 +1,13 @@
+html{
+  background-color: lightgreen;
+}
+
 div#header{
-  border: 10pt solid black;
+  border: 5pt solid white;
   text-align: center;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: lightgrey;
+  background-color: black;
 
 }
 h4{
@@ -11,6 +15,7 @@ h4{
   font-size: 44pt;
   text-decoration: underline;
   letter-spacing: .03em;
+  color: white;
 }
 
 div#chall,div#prob,div#result {
@@ -19,6 +24,7 @@ div#chall,div#prob,div#result {
   max-width: 60%;
   background-color: lightgrey;
   padding: 10px;
+  margin-left: 10px;
 }
 h1,h2,h3 {
   font-family: proxima nova ultrabold, sans-serif;
@@ -36,5 +42,18 @@ Div#links{
   width: 20%;
   margin-right: 100px;
   margin-top: -600px;
+  height: 500px;
+  padding-left: 50px;
+  background-color: white;
+
+
+}
+Ul{
+  list-style: none;
+}
+li{
+  font-size: 26pt;
+  font-family: proxima nova ultrabold, sans-serif;
+  padding: 25px;
 
 }
