@@ -1,0 +1,78 @@
+html{
+  background-color: yellow;
+}
+
+div#header{
+  border: 5pt solid black;
+  text-align: center;
+  background-color: white;
+}
+
+h4{
+  font-size: 45pt;
+  font-family: proxia nova ultrabold,sans-serif;
+}
+
+div#chall{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+h1{
+  font-size: 22pt;
+  font-family: proxia nova ultrabold,sans-serif;
+}
+
+p1{
+  font-size: 16pt;
+  font-family: proxia nova,sans-serif;
+}
+
+div#prob{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+h2{
+  font-size: 22pt;
+  font-family: proxia nova ultrabold,sans-serif;
+}
+h3{
+  font-size: 22pt;
+  font-family: proxia nova ultrabold,sans-serif;
+}
+
+p2{
+  font-size: 16pt;
+  font-family: proxia nova,sans-serif;
+}
+
+div#result{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+p3{
+  font-size: 16pt;
+  font-family: proxia nova,sans-serif;
+}
+
+div#codes{
+  border: 5pt solid black;
+  max-width: 80%;
+  margin-top: 70px;
+  background-color: white;
+}
+
+pre{
+  padding-left: 20px;
+}
