@@ -10,7 +10,7 @@ div#header{
 
 h4{
   font-size: 45pt;
-  font-family: proxia nova ultrabold,sans-serif;
+  font-family: proxima nova ultrabold,sans-serif;
 }
 
 div#chall{
@@ -23,12 +23,13 @@ div#chall{
 
 h1{
   font-size: 22pt;
-  font-family: proxia nova ultrabold,sans-serif;
+  font-family: proxima nova ultrabold,sans-serif;
 }
 
 p1{
   font-size: 16pt;
-  font-family: proxia nova,sans-serif;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
 }
 
 div#prob{
@@ -41,16 +42,22 @@ div#prob{
 
 h2{
   font-size: 22pt;
-  font-family: proxia nova ultrabold,sans-serif;
+  font-family: proxima nova ultrabold,sans-serif;
 }
 h3{
   font-size: 22pt;
-  font-family: proxia nova ultrabold,sans-serif;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+h5{
+  font-size: 41pt;
+  font-family: proxima nova ultrabold,sans-serif;
 }
 
 p2{
   font-size: 16pt;
-  font-family: proxia nova,sans-serif;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
 }
 
 div#result{
@@ -63,7 +70,8 @@ div#result{
 
 p3{
   font-size: 16pt;
-  font-family: proxia nova,sans-serif;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
 }
 
 div#codes{
@@ -78,6 +86,12 @@ pre{
 }
 
 img{
-  width: 25%;
-  height: 25%;
+  width: 15%;
+  height: 15%;
+  border: 5pt solid black;
+  float: right;
+}
+h4{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
 }
