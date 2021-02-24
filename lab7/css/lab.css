@@ -1,0 +1,100 @@
+html{
+  background-image: url(https://talkillustration.com/wp-content/uploads/2015/04/ghtyj.jpg);
+}
+
+div#header{
+  border: 5pt solid black;
+  text-align: center;
+  background-color: white;
+}
+
+h4{
+  font-size: 16pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+div#chall{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+h1{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold, sans-serif;
+}
+
+p1{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+div#prob{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+h2{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+h3{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+h5{
+  font-size: 28pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+p2{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+div#result{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+p3{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+
+
+
+
+img{
+  width: 25%;
+  height: 41%;
+  border: 5pt solid black;
+float: right;
+margin-right: 20px;
+margin-top: -200px;
+}
+
+h4{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+}
+
+div#script{
+  border: 5pt solid black;
+  max-width: 35%;
+  margin-top: 70px;
+  background-color: white;
+}
