@@ -1,0 +1,133 @@
+html{
+background-image: url(https://freefrontend.com/assets/img/css-background-patterns/simple-pattern.png);
+}
+
+div#header{
+  border: 5pt solid black;
+  text-align: center;
+  background-color: white;
+}
+
+h4{
+  font-size: 16pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+div#chall{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+h1{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold, sans-serif;
+}
+
+p1{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+div#prob{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+div#outputs{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 50%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+input{
+  padding: 10px;
+}
+
+
+
+div#list{
+  border: 5pt solid black;
+text-align: center;
+  background-color: white;
+  margin-top: 100px;
+  max-width: 50%;
+
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  font-size: 25pt;
+  font-family: proxima nova ultrabold, sans-serif;
+  padding: 10px;
+}
+
+h2{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+h3{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+h5{
+  font-size: 28pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+p2{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+div#result{
+  border: 5pt solid black;
+  margin-top: 70px;
+  max-width: 70%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+p3{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+
+
+
+
+img{
+  width: 25%;
+  height: 41%;
+
+float: right;
+margin-right: 20px;
+margin-top: -500px;
+}
+
+h4{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+}
+
+div#script{
+  border: 5pt solid black;
+  max-width: 35%;
+  margin-top: 70px;
+  background-color: white;
+}
