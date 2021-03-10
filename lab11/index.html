@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Lab 11 Conditionals  </title>
+
+<script src="js/lab.js" defer> </script>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+
+</head>
+
+<body>
+	<div id="header">
+
+		<h5> Lab 11: Conditionals </h5>
+
+	</div>
+
+	<div id="chall">
+
+		<h1> Challenges </h1>
+
+		<p1>  This lab was our intro to conditionals. We were to create the function sortingHat(str) in order to cound the letters in a string and assign it to a variabe.
+			We then took that variable and used a % operator to find a remainder of 4. Once we had that value, we created a conditional that would return a Hogwarts House for the user to be sorted into.
+		We got the users input using a form and an event listener attached to a button to that run the function using said input.
+
+	</div>
+
+	<div id="prob">
+
+		<h2> Problems</h2>
+
+		<p2> Ran into a few issues when writing the function that were mostly just small typos and formating errors. However I was stuck on one error I couldnt figure out.
+		When i entered my input and clicked the button, my function was stuck because it could not identify the value property from my input field. It turned out I was trying to target the ELMENT input but in my script i was referencing the element WITH THE ID INPUT.
+	I had overlooked the fact I was using document.getElementById instead of just targeting the name of the element I wanted to change.    </p2>
+
+	</div>
+
+	<div id="result">
+
+		<h3> Results </h3>
+
+		<p3>  At the bottom of my page you can find a link to my source code and a link to my homepage. Above them is the division I have set for my input field and the button that runs my function.  If you enter your name and click the button,
+	you your name will be taken, counted and assigned a value that corresponds to your new Hogwarts House assignment. </p3>
+
+</div>
+
+<div id="outputs">
+              <input type="text" id="input"> Enter your full name to be sorted: <br>
+              <button id="my-button"> Submit Here </button>
+              <div id="output"> </div>
+
+						</div>
+
+
+
+<div id="list">
+	<ul>
+<li><a href="js/lab.js"> JS Source Code </a></li>
+<li><a href="../index.html"> Back to Home </a></li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
