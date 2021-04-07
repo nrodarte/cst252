@@ -1,0 +1,129 @@
+html{
+background-image: linear-gradient(green, lightgreen, yellow, red, lightgreen, green);
+filter: invert(3);
+}
+
+div#header{
+  border: 5pt solid black;
+  text-align: center;
+  background-color: white;
+  max-width: 55%;
+  margin-left: 160px;
+}
+
+h4{
+  font-size: 16pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+div#chall{
+  border: 5pt solid black;
+  margin-top: 50px;
+  max-width: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+h1{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold, sans-serif;
+}
+
+p1{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+div#prob{
+  border: 5pt solid black;
+  margin-top: 50px;
+  max-width: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+div#outputs{
+  border: 5pt solid black;
+  margin-top: 50px;
+  max-width: 60%;
+  background-color: white;
+  padding: 30px;
+}
+
+input{
+  padding: 10px;
+}
+
+
+
+div#list{
+  border: 5pt solid black;
+text-align: center;
+  background-color: white;
+  margin-top: 100px;
+  max-width: 50%;
+
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  font-size: 25pt;
+  font-family: proxima nova ultrabold, sans-serif;
+  padding: 10px;
+}
+
+h2{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+h3{
+  font-size: 22pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+h5{
+  font-size: 28pt;
+  font-family: proxima nova ultrabold,sans-serif;
+}
+
+p2{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+div#result{
+  border: 5pt solid black;
+  margin-top: 50px;
+  max-width: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+p3{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+  padding: 10px;
+}
+
+
+
+
+
+img{
+  width: 25%;
+  height: 41%;
+
+float: right;
+margin-right: 20px;
+margin-top: -500px;
+}
+
+h4{
+  font-size: 16pt;
+  font-family: proxima nova,sans-serif;
+}
