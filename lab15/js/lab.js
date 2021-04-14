@@ -17,19 +17,21 @@
 //}
 
   //}
+class Vehicle {
+  constructor(make, model, year, color, extras, name) {
 
-
-function Vehicle(make, model, year, color, extras, name){
   this.make = make;
   this.year = year;
   this.color = color;
   this.model = model;
   this.extras = extras;
   this.name = name;
-  this.info = function() {
-    return this.color + " " + this.year + " " + this.make + " " + this.model + " with " + this.extras + " called " + this.name ;
-  }
 }
+info(){
+  return this.color + " " + this.year + " " + this.make + " " + this.model + " with " + this.extras + " called " + this.name ;
+}
+}
+
 
 var vehicles = [];
 
@@ -42,7 +44,8 @@ vehicles.push(new Vehicle("RIDE", "Manic", 2014, "Red, white and blue", "one ghe
 vehicles.push(new Vehicle("Envy", "AOS scooter", 2008, "Black ", "no brake " , "the craiglist scooter"));
 vehicles.push(new Vehicle("FELT", "Scotty Cranmer ", 2010, "Grey and red ", " odysessy doublespace handlebars and thunderbolt cranks, and a shadow stem " , "my first bmx"));
 
-outputEl = document.getElementById("output");
+var outputEl = document.getElementById("output");
+
 for (var i = 0; i<vehicles.length; i++) {
   var newEl = document.createElement("li");
   newEl.innerText = vehicles[i].info();

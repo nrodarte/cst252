@@ -1,6 +1,6 @@
 html{
-background-image: linear-gradient(green, lightgreen, yellow, red, lightgreen, green);
-filter: invert(3);
+background-image: linear-gradient(red, orange, orange, red);
+
 }
 
 div#header{
