@@ -56,44 +56,5 @@ function getComic(num) {
 
 }
 
-// start things off
-getComic();
-// var URL = "https://xkcd.com/info.0.json";
-//
-// var URLpre = "https://xkcd.com/";
-// var URLpost = "info.0.json";
-//
-// Endpoint format: http://xkcd.com/614/info.0.json
-//
-// a helper function to turn single and double quotes into
-// html symbols so they don't confuse html tags
-//
-// function make_safe(str) {
-//   return str.replace(/'/g, '&apos;').replace(/"/g, '&quot;');
-// }
 
-// function getComic() {
-//
-//   console.log("entering comic function");
-//
-//   var Data = {};
-//
-//   $.ajax({
-//     url: URL,
-//
-//
-//
-//     type: "GET",
-//
-//     dataType: "json",
-//
-//   })
-//   // If the request succeeds
-//   .done(function( json ) {
-//       alert("Success!");
-//   })
-//   // If the request fails
-//   .fail(function( xhr, status, errorThrown ) {
-//       console.log(errorThrown + " Status:" + status );
-//   });
-//   }
+getComic();
