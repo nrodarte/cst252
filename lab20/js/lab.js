@@ -17,17 +17,16 @@ function getComic(num) {
     numStr = num.toString() + "/";
   }
   var ourURL = URLpre + numStr + URLpost;
-  // get data via ajax from numbersapi
-  // Using the core $.ajax() method
+
   $.ajax({
-      // The URL for the request (ENDPOINT)
+
       url: ourURL,
-      // Whether this is a POST or GET request
+      // POST or GET
       type: "GET",
   })
-  // If the request succeeds
+  // If it works, run this
   .done(function(data) {
-      // console.log(data);
+
       var imageUrl = data.img;
       var title = data.title;
       var alt = data.alt;
@@ -49,6 +48,7 @@ function getComic(num) {
         getComic(comicNum + 1);
       });
   })
+  //if it doesnt work, show this
   .fail(function(){
     console.log("^^ Please ignore this error. It's okay.");
     console.log("Have a happy day! :-)");
@@ -56,5 +56,5 @@ function getComic(num) {
 
 }
 
-
+//run the function
 getComic();
